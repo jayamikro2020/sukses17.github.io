@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhendra Art Gallery</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header >
+      <div class="container" >
+        <div class="header-left" >
+          <img class="logo" src="logo hendra gallery.png" >
+        </div>
+        <!-- Tambahkan ikon menu disini -->
+         <ul class="topnav">
+           <li class="icon"><a href="javascript:void(0);" onclick="myFunction()">☰</a></li>
+           <li class="icon2"><a href="#home">Home</a></li>
+           <li class="icon2"><a href="#profile" >Profile</a></li>
+           <li class="icon2"><a href="#gallery" >Gallery</a></li>
+           <li class="icon2"><a href="#contact" >Contact</a></li>
+         </ul>
+
+         <script>
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+        document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+        }
+         </script>
+
+        <!-- <a href="menu-icon"></a>
+        <span class="fa fa-bars menu-icon"></span>
+        </a>
+        <div class="header-right">
+          <a href="#tentang">Tentang Kami</a>
+          <a href="#lukisan">Lukisan</a>
+          <a href="#kontak" class="login">Kontak</a>
+        </div> -->
+      </div>
+    </header>
+
+
+
+     <div class="slide-wrapper" id="home">
+      <div class="container">
+        
+      </div>
+    </div>
+
+    <div class="profile-wrapper" id="profile">
+      <div class="container">
+        <h1>Suhendra Art Gallery</h1>
+        <h1>Art of Painting</h1>
+        <p>Suhendra Art Gallery adalah sebuah website pribadi yang menampilkan lukisan-lukisan hasil karya sendiri yang juga bertujuan untuk dijual.</p>
+        <p>Pelukis bernama bapak Suhendra.</p>
+      </div>
+    </div>
+    
+    <div class="gallery-wrapper" id="gallery">
+      <div class="container">
+        <div class="heading" >
+          <h1>Gallery</h1>
+        </div>
+
+        <div class="gallerys">
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-1">
+              <img src="image/thumbnail/Bukit_gundaling.jpg" alt="Bukit Gundaling">
+              <span>Bukit Gundaling</span>
+              </a>
+            
+              <!-- overlay -->
+              <div class="overlay" id="gambar-1">
+                <!-- <a href="#gambar-4" class="prev">Previous</a> -->
+                <a href="#" class="close">x close</a>
+                <img src="image/full size/Bukit_gundaling.jpg" alt="Bukit Gundaling">
+                <a href="#gambar-2" class="next">Next</a>
+            </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-2">
+              <img src="image/thumbnail/Danau_toba_di_kala_senja.jpg" alt="Danau Toba di kala senja">
+              <span>Danau Toba di kala senja</span>
+              </a>
+
+              <!-- overlay -->
+              <div class="overlay" id="gambar-2">
+                <a href="#gambar-1" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="image/full size/Danau_toba_di_kala_senja.jpg" alt="Danau toba di kala senja.jpg">
+                <a href="#gambar-3" class="next">Next</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-3">
+              <img src="image/thumbnail/Sungai_deli.jpg" alt="Sungai deli">
+              <span>Sungai Deli</span>
+              </a>
+
+            <!-- overlay -->
+              <div class="overlay" id="gambar-3">
+                <a href="#gambar-2" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="image/full size/Sungai_deli.jpg" alt="Sungai deli">
+                <a href="#gambar-4" class="next">Next</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-4">
+              <img src="image/thumbnail/Ikan_koi.jpg" alt="Ikan Koi">
+              <span>Ikan Koi</span>
+              </a>
+  
+              <!-- overlay -->
+              <div class="overlay" id="gambar-4">
+                <a href="#gambar-3" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="image/full size/Ikan_koi.jpg" alt="Ikan Koi">
+                <!-- <a href="#gambar-1" class="next">Next</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="clear"></div>
+        </div>
+        
+        <a href="page/gallery.html" class="view_more">
+          <span>view more</span>
+        </a>
+        
+      </div>
+    </div>
+
+    <div class="message-wrapper" id="contact">
+      <div class="container">
+        <div class="heading" >
+          <h1>Contact</h1>
+          <h2>Apakah anda tertarik untuk memesan hasil karya lukisan kami ?</h2>
+          <h3>Yuk di order, pemesanan bisa melalui tombol-tombol dibawah</h3>
+        </div>
+        <div class="btn-wrapper">
+          <a href="#" class="btn signup">Pesan lewat Email</a>
+          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Pesan lewat Facebook</a>
+          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Pesan lewat Whatsapp</a>
+        </div>
+        <!-- <span class="btn message">Mulai Belajar</span> -->
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <img src="logo hendra gallery.png">
+        <p>Art of Painting</p>
+      </div>
+    </footer>
+  </body>
+</html>
